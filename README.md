@@ -14,3 +14,7 @@ https://www.maomaovpn.com/
 环境变量：脚本中使用了process.env.APPDATA来获取应用数据的路径。这在Windows系统中有效，但如果你在其他操作系统（如Linux或macOS）上运行，可能需要修改这一部分以适应不同的环境变量或路径。
 
 异步处理：脚本中多次使用了async/await来处理异步操作。确保你对JavaScript的异步编程有所了解，以便于理解和维护这部分代码。
+
+
+18：28 北京时间4月3日
+js和py理论上应该都能工作 个人主修python 所以py应该能运行的更稳定 收邮件用的outlook 因为猫猫云给hotmail发验证码直接收不到 也不想用其他的了
