@@ -53,7 +53,7 @@ def send_verification_request(email):
     response = requests.post(url, json=payload, headers=headers)
     print(response)
 
-base_email = "maomaocloud2024@outlook.com"
+base_email = "your-email-must-is@outlook.com"
 next_email = generate_next_email(base_email)
 print("使用的email:", next_email)
 
