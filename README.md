@@ -5,9 +5,12 @@ Thanks for the idea offer, next project is to fully automate signing up for MaoM
 感谢想法提供，下一个项目就是全自动注册猫猫云，白嫖免费订阅
 
 
-Note:
+https://www.maomaovpn.com/
 
-You need to have , , and  installed. Use  to install them.axiosimapmailparsernpm install axios imap mailparser
-This script uses async/await for handling asynchronous operations. Ensure you're running it in an environment that supports these features (Node.js 8+).
-Adjust the  function if you're targeting a different folder than the 'INBOX'.openInbox
-Make sure to replace the placeholders (, , ) with your actual Outlook email credentials.EMAILPASSWORDSERVER
+环境要求：JavaScript版本需要在Node.js环境中运行，因为它包括了文件系统操作、网络请求以及处理IMAP电子邮件等服务器端功能。确保你的开发环境已经安装了Node.js。
+
+依赖安装：此脚本依赖于axios、imap、mailparser等Node.js库来发送HTTP请求、处理IMAP邮件以及解析邮件内容。你需要使用npm（Node.js的包管理器）来安装这些依赖。
+
+环境变量：脚本中使用了process.env.APPDATA来获取应用数据的路径。这在Windows系统中有效，但如果你在其他操作系统（如Linux或macOS）上运行，可能需要修改这一部分以适应不同的环境变量或路径。
+
+异步处理：脚本中多次使用了async/await来处理异步操作。确保你对JavaScript的异步编程有所了解，以便于理解和维护这部分代码。
