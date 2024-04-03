@@ -18,3 +18,4 @@ https://www.maomaovpn.com/
 
 18：28 北京时间4月3日
 js和py理论上应该都能工作 个人主修python 所以py应该能运行的更稳定 收邮件用的outlook 因为猫猫云给hotmail发验证码直接收不到 也不想用其他的了
+因为是赶工出来的 非常屎山
