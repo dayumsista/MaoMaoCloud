@@ -27,6 +27,7 @@ js和py理论上应该都能工作 个人主修python 所以py应该能运行的
 3. 添加了代码循环 现在只需要输入一个数字就可以获得指定数量的订阅
 4. 邮箱推荐使用outlook 有能力且想用其他提供商的可以自己改
 5. 目前没有要说的了 享受白嫖吧 今天跑了二十来个 反正也用不完 就是皮
+![image](https://github.com/dayumsista/MaoMaoCloud/assets/147481512/af1cea6b-bc23-49f3-a79f-1d16504f09be)
 
 ## 今日免费订阅 Today free sub
 https://maomaoplus.com/api/v1/client/subscribe?token=be3369b35f34d91a72a40b87b2d1cb7f
