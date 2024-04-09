@@ -4,14 +4,14 @@ import email
 from email.header import decode_header
 import re
 import requests
-import json
 import time
 
-EMAIL = 'your_email_must_is@outlook.com' #email here
-PASSWORD = 'your_outlook_passw' #passw here
+EMAIL = 'your_email_must_is@outlook.com'
+PASSWORD = 'your_outlook_passw'
 SERVER = 'imap-mail.outlook.com'
+desired_subject = '猫猫云邮箱验证码' #Email Title
+base_email = EMAIL
 
-# 设置保存文件的路径
 appdata_path = os.environ.get('APPDATA')
 maomao_folder_path = os.path.join(appdata_path, 'Maomao')
 if not os.path.exists(maomao_folder_path):
@@ -58,7 +58,6 @@ def send_verification_request(email):
 iteration_count = int(input("Enter the number of iterations: "))
 
 for _ in range(iteration_count):
-    base_email = "your@outlook.com" #email here
     next_email = generate_next_email(base_email)
     print("使用的email:", next_email)
 
@@ -86,7 +85,7 @@ for _ in range(iteration_count):
                         subject = decode_header(msg["subject"])[0][0]
                         if isinstance(subject, bytes):
                             subject = subject.decode()
-                        if subject == '猫猫云邮箱验证码':
+                        if subject == desired_subject:
                             email_info = {'Subject': subject}
                             if msg.is_multipart():
                                 for part in msg.walk():
@@ -131,8 +130,9 @@ for _ in range(iteration_count):
             "invite_code": "YSirkEU4",
             "email_code": verification_code
         }
-
-        url = "https://www.maomaovpn.com/api/v1/passport/auth/register"
+        #It should also work for other VPN provider who r using v2board
+        #https://github.com/v2board/v2board
+        url = "https://www.maomaovpn.com/api/v1/passport/auth/register" 
         response = requests.post(url, data=registration_data)
         print(response)
         if response.status_code == 500:
@@ -172,4 +172,3 @@ for _ in range(iteration_count):
     if _ < iteration_count - 1:
         print(f"Waiting for 5 seconds before the next iteration...")
         time.sleep(5)
-
