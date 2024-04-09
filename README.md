@@ -29,4 +29,7 @@ js和py理论上应该都能工作 个人主修python 所以py应该能运行的
 5. 目前没有要说的了 享受白嫖吧 今天跑了二十来个 反正也用不完 就是皮
 ![image](https://github.com/dayumsista/MaoMaoCloud/assets/147481512/af1cea6b-bc23-49f3-a79f-1d16504f09be)
 
-
+## 10:36 北京时间4月9日
+1. 加了base_email = EMAIL 我真是傻逼中间居然还要重新定义
+2. V2Board的源码的产品 改一下域名应该就能用 中间加了两行注释 也算更新吧
+3. EMAIL = 如果你更换了你要用的邮箱 把C:\Users\Administrator\AppData\Roaming\Maomao的email_status.txt删了即可
