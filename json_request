@@ -1,0 +1,1 @@
+npm install node-imap mailparser dotenv node-fetch fs-extra
