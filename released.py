@@ -160,6 +160,8 @@ for _ in range(iteration_count):
                 json_response = subscription_response.json()
                 subscribe_url = json_response.get('data', {}).get('subscribe_url')
                 print(subscribe_url)
+                run_command = f"start clash://install-config?url={subscribe_url}"
+                os.system(run_command)
                 with open(subscribe_file_path, "a") as file:
                     file.write(subscribe_url + "\n")
             else:
