@@ -33,3 +33,9 @@ js和py理论上应该都能工作 个人主修python 所以py应该能运行的
 1. 加了base_email = EMAIL 我真是傻逼中间居然还要重新定义
 2. V2Board的源码的产品 改一下域名应该就能用 中间加了两行注释 也算更新吧
 3. EMAIL = 如果你更换了你要用的邮箱 把C:\Users\Administrator\AppData\Roaming\Maomao的email_status.txt删了即可
+
+## 7:22 北京时间4月18日
+1. 加了两行代码
+#run_command = f"start clash://install-config?url={subscribe_url}"
+#os.system(run_command)
+现在跑完一个就会自动在本地导入clash的订阅，如果你安装了clash
