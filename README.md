@@ -39,3 +39,7 @@ js和py理论上应该都能工作 个人主修python 所以py应该能运行的
 #run_command = f"start clash://install-config?url={subscribe_url}"
 #os.system(run_command)
 现在跑完一个就会自动在本地导入clash的订阅，如果你安装了clash
+
+## 14:45 北京时间4月22日
+![image](https://github.com/dayumsista/MaoMaoCloud/assets/147481512/23b8607a-2b11-4220-ac87-c3820dbdf1a5)
+
