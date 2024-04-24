@@ -43,3 +43,9 @@ js和py理论上应该都能工作 个人主修python 所以py应该能运行的
 ## 14:45 北京时间4月22日
 ![image](https://github.com/dayumsista/MaoMaoCloud/assets/147481512/23b8607a-2b11-4220-ac87-c3820dbdf1a5)
 《成果展示》
+
+## 12:08 北京时间4月24日
+![企业微信截图_17139315779001](https://github.com/dayumsista/MaoMaoCloud/assets/147481512/f72b45c2-0c87-496e-95ea-ffd05da5829c)
+<img width="300" alt="企业微信截图_17139317537372" src="https://github.com/dayumsista/MaoMaoCloud/assets/147481512/8d6ad58c-f96e-4367-854d-26935292eab6">
+
+
