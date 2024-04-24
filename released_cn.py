@@ -7,7 +7,7 @@ import requests
 import time
 
 EMAIL = 'email@outlook.com'#这里放你的outlook邮箱
-PASSWORD = 'password@1234'#你的你的outlook邮箱密码
+PASSWORD = 'password@1234'#outlook邮箱密码
 SERVER = 'imap-mail.outlook.com'
 desired_subject = '猫猫云邮箱验证码'
 base_email = EMAIL
