@@ -186,6 +186,8 @@ for _ in range(iteration_count):
                             json_response = subscription_response.json()
                             subscribe_url = json_response.get('data', {}).get('subscribe_url')
                             print(subscribe_url)
+                            with open(subscribe_file_path, "a") as file:
+                                file.write(subscribe_url + "\n")
                             if Download:
                                 download_url = subscribe_url + "&flag=clash"
                                 maomao_folder_path = os.path.join(appdata_path, 'Maomao')
