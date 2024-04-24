@@ -185,6 +185,8 @@ for _ in range(iteration_count):
                             json_response = subscription_response.json()
                             subscribe_url = json_response.get('data', {}).get('subscribe_url')
                             print(subscribe_url)
+                            with open(subscribe_file_path, "a") as file:
+                                file.write(subscribe_url + "\n")
                             if Download:
                                 download_url = subscribe_url + "&flag=clash"
                                 maomao_folder_path = os.path.join(appdata_path, 'Maomao')
@@ -193,8 +195,6 @@ for _ in range(iteration_count):
                                 with open(file_path, 'wb') as f:
                                     f.write(response.content)
                                 print("download successsful")
-                                with open(subscribe_file_path, "a") as file:
-                                    file.write(subscribe_url + "\n")
                             if Download:
                                 run_command = f"start clash://install-config?url={subscribe_url}"
                                 os.system(run_command)
