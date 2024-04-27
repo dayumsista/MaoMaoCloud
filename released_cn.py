@@ -9,6 +9,7 @@ import time
 EMAIL = 'email@outlook.com'#这里放你的outlook邮箱
 PASSWORD = 'password@1234'#outlook邮箱密码
 SERVER = 'imap-mail.outlook.com'
+password = 'Qwer...@3'
 desired_subject = '猫猫云邮箱验证码'
 invite_code = 'invite_code'#该网站邀请码
 base_email = EMAIL
@@ -155,7 +156,7 @@ for _ in range(iteration_count):
 
                     registration_data = {
                         "email": next_email,
-                        "password": "Qwer...3",
+                        "password": password,
                         "invite_code": invite_code,
                         "email_code": verification_code
                     }
