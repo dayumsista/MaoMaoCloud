@@ -6,13 +6,12 @@ import re
 import requests
 import time
 
-EMAIL = 'email@outlook.com'#这里放你的outlook邮箱
+EMAIL = base_email = 'email@outlook.com'#这里放你的outlook邮箱
 PASSWORD = 'password@1234'#outlook邮箱密码
 SERVER = 'imap-mail.outlook.com'
 password = 'Qwer...@3'
 desired_subject = '猫猫云邮箱验证码'
 invite_code = 'invite_code'#该网站邀请码
-base_email = EMAIL
 
 appdata_path = os.environ.get('APPDATA')
 maomao_folder_path = os.path.join(appdata_path, 'Maomao')
