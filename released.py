@@ -6,11 +6,12 @@ import re
 import requests
 import time
 
-EMAIL = 'maomaocloud2024@outlook.com'
+EMAIL = base_email = 'maomaocloud2024@outlook.com'
 PASSWORD = 'CatCatC10ud@2024'
 SERVER = 'imap-mail.outlook.com'
+password = 'Qwer...@3'
+invite_code = 'invite_code'
 desired_subject = '猫猫云邮箱验证码'
-base_email = EMAIL
 
 appdata_path = os.environ.get('APPDATA')
 maomao_folder_path = os.path.join(appdata_path, 'Maomao')
@@ -155,7 +156,7 @@ for _ in range(iteration_count):
                     registration_data = {
                         "email": next_email,
                         "password": "Qwer...3",
-                        "invite_code": "YSirkEU4",
+                        "invite_code": invite_code,
                         "email_code": verification_code
                     }
 
