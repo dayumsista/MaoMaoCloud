@@ -10,6 +10,7 @@ EMAIL = 'email@outlook.com'#这里放你的outlook邮箱
 PASSWORD = 'password@1234'#outlook邮箱密码
 SERVER = 'imap-mail.outlook.com'
 desired_subject = '猫猫云邮箱验证码'
+invite_code = 'invite_code'#该网站邀请码
 base_email = EMAIL
 
 appdata_path = os.environ.get('APPDATA')
@@ -156,7 +157,7 @@ for _ in range(iteration_count):
                     registration_data = {
                         "email": next_email,
                         "password": "Qwer...3",
-                        "invite_code": "YSirkEU4",
+                        "invite_code": invite_code,
                         "email_code": verification_code
                     }
 
