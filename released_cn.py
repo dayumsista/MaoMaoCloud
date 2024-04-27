@@ -153,7 +153,6 @@ for _ in range(iteration_count):
                     verification_code = email_info['验证码']
                     print("code found:", verification_code)
 
-                    #密码就是Qwer...@3 要改直接改就行 没必要去进行定义
                     registration_data = {
                         "email": next_email,
                         "password": "Qwer...3",
