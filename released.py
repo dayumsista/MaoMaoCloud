@@ -6,8 +6,8 @@ import re
 import requests
 import time
 
-EMAIL = base_email = 'maomaocloud2024@outlook.com'
-PASSWORD = 'CatCatC10ud@2024'
+EMAIL = base_email = 'email@outlook.com'
+PASSWORD = 'password@1234'
 SERVER = 'imap-mail.outlook.com'
 password = 'Qwer...@3'
 invite_code = 'invite_code'
