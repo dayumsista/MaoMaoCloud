@@ -196,7 +196,7 @@ for _ in range(iteration_count):
                                 with open(file_path, 'wb') as f:
                                     f.write(response.content)
                                 print("download successsful")
-                            if Download:
+                            if Config:
                                 run_command = f"start clash://install-config?url={subscribe_url}"
                                 os.system(run_command)
                                 download_url = subscribe_url + "&flag=clash"
