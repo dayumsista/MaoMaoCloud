@@ -117,7 +117,7 @@ def get_user_confirmation(prompt):
         elif user_input.lower() == "no":
             return False
         else:
-            print("Invalid input. Please enter only 'Yes' or 'No'.")
+            print("无效输入，请只输入 'Yes' 或 'No'.")
             
 Download = get_user_confirmation("是否下载Clash参数文件")
 Config = get_user_confirmation("是否要导入参数文件到Clash")
@@ -156,7 +156,7 @@ for _ in range(iteration_count):
                     registration_data = {
                         "email": next_email,
                         "password": password,
-                        "invite_code": invite_code,
+                        "invite_code": "YSirkEU4",
                         "email_code": verification_code
                     }
 
@@ -172,7 +172,7 @@ for _ in range(iteration_count):
                     url = "https://www.maomaovpn.com/api/v1/passport/auth/login"
                     login_payload = {
                         "email": next_email,
-                        "password": "Qwer...3"
+                        "password": password
                     }
                     login_response = requests.post(url, data=login_payload)
                     if login_response.status_code == 200:
@@ -199,7 +199,6 @@ for _ in range(iteration_count):
                             if Config:
                                 run_command = f"start clash://install-config?url={subscribe_url}"
                                 os.system(run_command)
-                                download_url = subscribe_url + "&flag=clash"
                                 print("成功导入")
                         else:
                             print("获取URL失败.")
