@@ -172,7 +172,7 @@ for _ in range(iteration_count):
                     url = "https://www.maomaovpn.com/api/v1/passport/auth/login"
                     login_payload = {
                         "email": next_email,
-                        "password": "Qwer...3"
+                        "password": password
                     }
                     login_response = requests.post(url, data=login_payload)
                     if login_response.status_code == 200:
@@ -199,7 +199,6 @@ for _ in range(iteration_count):
                             if Config:
                                 run_command = f"start clash://install-config?url={subscribe_url}"
                                 os.system(run_command)
-                                download_url = subscribe_url + "&flag=clash"
                                 print("input successful")
                         else:
                             print("Failed to retrieve subscription URL.")
