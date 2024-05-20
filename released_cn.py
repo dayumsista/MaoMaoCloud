@@ -48,7 +48,7 @@ def generate_next_email(base_email):
     return f"{parts[0]}+{next_status}@{parts[1]}", next_status
 
 def send_verification_request(email):
-    url = "https://www.maomaovpn.com/api/v1/passport/comm/sendEmailVerify"
+    url = "https://maomao.cloud/api/v1/passport/comm/sendEmailVerify"
     payload = {"email": email}
     headers = {
         "Content-Type": "application/json",
@@ -160,7 +160,7 @@ for _ in range(iteration_count):
                         "email_code": verification_code
                     }
 
-                    url = "https://www.maomaovpn.com/api/v1/passport/auth/register"
+                    url = "https://maomao.cloud/api/v1/passport/auth/register"
                     response = requests.post(url, data=registration_data)
                     print(response)
                     if response.status_code == 500:
@@ -169,7 +169,7 @@ for _ in range(iteration_count):
 
                     time.sleep(5)
 
-                    url = "https://www.maomaovpn.com/api/v1/passport/auth/login"
+                    url = "https://maomao.cloud/api/v1/passport/auth/login"
                     login_payload = {
                         "email": next_email,
                         "password": password
@@ -179,7 +179,7 @@ for _ in range(iteration_count):
                         login_data = login_response.json()
                         auth_data = login_data['data']['auth_data']
 
-                        url = "https://www.maomaovpn.com/api/v1/user/getSubscribe"
+                        url = "https://maomao.cloud/api/v1/user/getSubscribe"
                         headers = {"Authorization": auth_data}
                         subscription_response = requests.get(url, headers=headers)
                         if subscription_response.status_code == 200:
