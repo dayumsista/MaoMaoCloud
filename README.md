@@ -1,6 +1,10 @@
 [猫猫云](https://www.maomaovpn.com/)
 [视频示例](https://streamable.com/jx47hp)
 
+## 14:00 北京时间6月2日
+![7cc26a5ea4b0db15ec910bbdf20bbb8](https://github.com/dayumsista/MaoMaoCloud/assets/147481512/472edb88-a32c-43ba-ba60-b02f6fa1d958)
+你有病啊
+
 ## 14:00 北京时间5月20日
 早上好 在这个炮火连天的日子
 我仍然坚守洁身自好
