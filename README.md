@@ -13,6 +13,10 @@ Ctrl F
 https://www.maomaovpn.com 改为 https://maomao.cloud
 即可
 
+## 20:22 北京时间8月28日
+1.猫猫云关闭了免费白嫖订阅，但是此源码仍然适用任何v2board的服务商，替换域名即可
+
+
 ## 12:08 北京时间4月24日
 ![企业微信截图_17139315779001](https://github.com/dayumsista/MaoMaoCloud/assets/147481512/f72b45c2-0c87-496e-95ea-ffd05da5829c)
 <img width="300" alt="企业微信截图_17139317537372" src="https://github.com/dayumsista/MaoMaoCloud/assets/147481512/8d6ad58c-f96e-4367-854d-26935292eab6">
