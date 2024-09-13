@@ -1,21 +1,5 @@
-[猫猫云](https://www.maomaovpn.com/)
-[视频示例](https://streamable.com/jx47hp)
-
-## 14:00 北京时间5月20日
-早上好 在这个炮火连天的日子
-我仍然坚守洁身自好
-不曾离开 未约会 未开房
-北京时间：14:00
-为自己站岗 为清纯打卡
-
-猫猫云域名更新
-Ctrl F 
-https://www.maomaovpn.com 改为 https://maomao.cloud
-即可
-
 ## 20:22 北京时间8月28日
 1.猫猫云关闭了免费白嫖订阅，但是此源码仍然适用任何v2board的服务商，替换域名即可
-
 
 ## 12:08 北京时间4月24日
 ![企业微信截图_17139315779001](https://github.com/dayumsista/MaoMaoCloud/assets/147481512/f72b45c2-0c87-496e-95ea-ffd05da5829c)
